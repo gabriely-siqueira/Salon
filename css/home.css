@@ -1,0 +1,59 @@
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../images/home-bg2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content span{
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    padding-bottom: .5rem;
+    color:var(--primary-color);
+    text-transform: uppercase;
+}
+
+.home .content h3 {
+    color: var(--black);
+    font-size: 8rem; 
+    line-height: 8rem; 
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Adiciona sombreamento claro ao texto */
+}
+
+
+
+.home .content .share {
+    margin-top: 1rem;
+}
+
+.home .content .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    margin-right: .3rem;
+    text-align: center;
+}
+
+.home .content .share a:hover {
+    background-color: var(--black);
+}
+
+.home .content .link {
+    font-size: 1.7rem;
+    line-height: 2;
+    color: var(--primary-color);
+    padding: .5rem 0;
+    display: block;
+    text-decoration: underline;
+}
